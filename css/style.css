@@ -1,0 +1,97 @@
+/*Reseteando estilos preestablecidos*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: 3.2s linear;/*OjO*/
+}
+
+body{
+    background: rgb(0, 0, 0);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 0.75rem 8%;
+    background: rgb(0, 0, 0);
+    border-top: 0.1rem solid #929292;
+    border-bottom: 0.1rem solid #929292;
+}
+
+header>.logo>img{
+    height: 4rem;
+}
+
+header>.linksHeader>a{
+    color: #ffff;
+    margin-left: 1.2rem;
+}
+
+header>.opcHeader>i{
+    color: #ffff;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+#carrito{
+    display: none;
+}
+
+section{
+    padding: 2rem 7%;
+}
+
+#home{
+    min-height: 100vh;
+    display: flex;
+    background: url("../img/home-img.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+#home>div{
+    max-width: 35rem;
+}
+
+#home>div>h1{
+    font-family: 'Updock', cursive;
+    font-size: 6rem;
+    font-weight: 800;
+    color: #ffff;
+}
+
+#home>div>h4{
+    padding: 1rem 0;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 200;
+    line-height: 1.8;
+    color: #e4e4e4;
+}
+
+#home>div>button{
+    background: #d3ad7f;
+    padding: 0.80rem 2.75rem;
+    margin-top: 1rem;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.10rem;
+    font-weight: 600;
+    color: #ffff;
+    cursor: pointer;
+}
