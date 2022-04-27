@@ -9,7 +9,7 @@
     outline: none;
     border: none;
     text-transform: capitalize;
-    transition: 3.2s linear;/*OjO*/
+    transition: 3.2s linear;                                       /*PENDIENTE AJUSTAR EL EFECTO DE TODAS LAS TRANSICIONES*/
 }
 
 body{
@@ -94,4 +94,100 @@ section{
     font-weight: 600;
     color: #ffff;
     cursor: pointer;
+}
+
+#about{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#about>h1{
+    text-transform: uppercase;
+    color: #d3ad7f;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 2.5rem 0;
+}
+
+#about>h1>span{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 2.5rem 0;
+}
+
+.cardCont{
+    background-color: #13131A;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.cardIzq{
+    flex-basis: 350px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.cardDerecha{
+    flex-basis: 350px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 2rem;
+}
+
+.cardIzq>img{
+    width: 100%;
+}
+
+.cardDerecha>h3{
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.cardDerecha p{
+    font-size: 1rem;
+    color: #e4e4e4;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.cardDerecha button{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0.8rem 2rem;
+    background: #d3ad7f;
+}
+
+#menu>h1{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#menu>h1>span{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #d3ad7f;
+}
+
+.cont_Productos{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card{
+    border: 1px solid #929292;
+    padding: 5rem;
+    margin: 0.5rem;
+}
+
+.card h3, .card h3~h2{
+    color: #ffffff;
 }
