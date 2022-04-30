@@ -164,10 +164,12 @@ section{
 }
 
 #menu>h1{
+    text-align: center;
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: 600;
     color: #ffffff;
+    margin-bottom: 1.5rem;
 }
 
 #menu>h1>span{
@@ -177,17 +179,170 @@ section{
     color: #d3ad7f;
 }
 
-.cont_Productos{
-    display: flex;
-    flex-flow: row wrap;
+.cont_Menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 1.5rem;
 }
 
 .card{
-    border: 1px solid #929292;
-    padding: 5rem;
-    margin: 0.5rem;
+    border: 1px solid #575757;
+    padding: 2rem;
+    text-align: center;
 }
 
-.card h3, .card h3~h2{
+.card h3{
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.card h3~h2{
+    color: #ffffff;
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.card h2 span{
+    color: #c2c2c2;
+    font-size: 1rem;
+    font-weight: 200;
+    text-decoration: line-through;
+    margin-left: 0.75rem;
+}
+
+.card img{
+    height: 6rem;
+}
+
+.card button{
+    padding: 0.65rem 1.75rem;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: #ffffff;
+    background: #d3ad7f;
+}
+
+#products>h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+#products>h1>span{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #d3ad7f;
+}
+
+.cont_Prod{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 1.5rem;
+}
+
+.box{
+    border: 1px solid #575757;
+    padding: 2rem;
+    text-align: center;
+}
+
+.acciones{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.accion{
+    margin-left: 1rem;
+}
+
+.accion>i{
+    border: 1px solid #575757;
+    color: #ffffff;
+    font-size: 1.50rem;
+    padding: 0.75rem;
+}
+
+.box img{
+    margin-top: 2.5rem;
+}
+
+.box h3{
+    font-size: 1.5rem;
+    margin-top: 1rem;
     color: #ffffff;
 }
+
+.stars a i{
+    margin-top: 1rem;
+    color: #d3ad7f;
+    font-size: 1.25rem;
+}
+
+.box h2{
+    margin-top: 1rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.box h2 span{
+    margin-left: 0.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 100;
+    text-decoration: line-through;
+}
+
+#review>h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+#review>h1>span{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #d3ad7f;
+}
+
+.cont_review{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 1.5rem;
+}
+
+.review{
+    border: 1px solid #575757;
+    padding: 2rem;
+    text-align: center;
+}
+
+.review p{
+    font-size: 0.85rem;
+    color: #ffffff;
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.review h3{
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+.userpic{
+    width: 5rem;
+    border-radius: 7rem;
+    margin-top: 2rem;
+}
+
